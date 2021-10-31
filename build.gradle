@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    implementation group: 'site.ycsb', name: 'core', version: '0.17.0'
+    implementation group: 'com.google.guava', name: 'guava', version: '23.0'
+// https://mvnrepository.com/artifact/com.typesafe/config
+    implementation group: 'com.typesafe', name: 'config', version: '1.0.2'
+    // https://mvnrepository.com/artifact/com.jakewharton.fliptables/fliptables
+    implementation group: 'com.jakewharton.fliptables', name: 'fliptables', version: '1.0.2'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.13.3'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.13.3'
+// https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
+// https://mvnrepository.com/artifact/org.knowm.xchart/xchart
+    implementation group: 'org.knowm.xchart', name: 'xchart', version: '3.2.2'
+// https://mvnrepository.com/artifact/org.apache.commons/commons-math3
+    implementation group: 'org.apache.commons', name: 'commons-math3', version: '3.6.1'
+
+
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,126 @@
+util/randomAdapters/MathRandomAdapter.java
+ util.randomAdapters.MathRandomAdapter
+reports/IndexBasedGraphLogger.java
+ reports.IndexBasedGraphLogger
+factories/ICounterFactory.java
+ factories.ICounterFactory
+policies/moments/Counter.java
+ policies.moments.Counter
+reports/PolicyStats.java
+ reports.PolicyStats
+tuners/moments/ConstantSizeTuner.java
+ tuners.moments.ConstantSizeTuner
+tuners/moments/F0.java
+ tuners.moments.F0
+tests/F0Tester.java
+ tests.F0Tester
+ tests.F0Tester$1
+ tests.F0Tester$2
+factories/CounterFactory.java
+ factories.CounterFactory
+factories/EstimatedCounterFactory.java
+ factories.EstimatedCounterFactory
+util/randomAdapters/Hasher.java
+ util.randomAdapters.Hasher
+ util.randomAdapters.Hasher$LinearCongruentialGenerator
+traces/AccessEvent.java
+ traces.AccessEvent
+ traces.AccessEvent$PenaltiesAccessEvent
+ traces.AccessEvent$WeightedAccessEvent
+util/randomAdapters/Md5RandomAdapter.java
+ util.randomAdapters.Md5RandomAdapter
+util/randomAdapters/IRandomAdapter.java
+ util.randomAdapters.IRandomAdapter
+util/randomAdapters/Murmur3_32RandomAdapter.java
+ util.randomAdapters.Murmur3_32RandomAdapter
+util/randomAdapters/SipRandomAdapter.java
+ util.randomAdapters.SipRandomAdapter
+settings/CacheSettings.java
+ settings.CacheSettings
+policies/BasePolicy.java
+ policies.BasePolicy
+policies/Lfu.java
+ policies.Lfu
+tuners/moments/IF2.java
+ tuners.moments.IF2
+policies/CacheManager.java
+ policies.CacheManager
+policies/moments/CounterEstimator.java
+ policies.moments.CounterEstimator
+util/randomAdapters/MurmurHash.java
+ util.randomAdapters.MurmurHash
+util/randomAdapters/CustomRandomAdapter.java
+ util.randomAdapters.CustomRandomAdapter
+reports/TextReporter.java
+ reports.TextReporter
+settings/BasicSettings.java
+ settings.BasicSettings
+ settings.BasicSettings$ReportSettings
+ settings.BasicSettings$SyntheticSettings
+ settings.BasicSettings$SyntheticSettings$CounterSettings
+ settings.BasicSettings$SyntheticSettings$ExponentialSettings
+ settings.BasicSettings$SyntheticSettings$HotspotSettings
+ settings.BasicSettings$SyntheticSettings$UniformSettings
+ settings.BasicSettings$SyntheticSettings$ZipfianSettings
+policies/IPolicy.java
+ policies.IPolicy
+policies/moments/ICounter.java
+ policies.moments.ICounter
+traces/TraceReader.java
+ traces.TraceReader
+ traces.TraceReader$KeyOnlyTraceReader
+util/randomAdapters/StubRandomAdapter.java
+ util.randomAdapters.StubRandomAdapter
+reports/GraphLogger.java
+ reports.GraphLogger
+tuners/moments/Fm.java
+ tuners.moments.Fm
+tuners/TunerSettings.java
+ tuners.TunerSettings
+util/Utils.java
+ util.Utils
+main/Managers.java
+ main.Managers
+reports/Reporter.java
+ reports.Reporter
+tuners/moments/FmAggregator.java
+ tuners.moments.FmAggregator
+util/BitsVector.java
+ util.BitsVector
+tuners/moments/AMS.java
+ tuners.moments.AMS
+util/randomAdapters/NativeRandomAdapter.java
+ util.randomAdapters.NativeRandomAdapter
+reports/ReportFormat.java
+ reports.ReportFormat
+tuners/moments/F2.java
+ tuners.moments.F2
+util/randomAdapters/Sha256RandomAdapter.java
+ util.randomAdapters.Sha256RandomAdapter
+traces/Synthetic.java
+ traces.Synthetic
+tuners/moments/IF0.java
+ tuners.moments.IF0
+reports/TableReporter.java
+ reports.TableReporter
+tests/SizeTunerTester.java
+ tests.SizeTunerTester
+cache/managers/ICache.java
+ cache.managers.ICache
+tests/F2Tester.java
+ tests.F2Tester
+tuners/ISizeTuner.java
+ tuners.ISizeTuner
+cache/managers/LfuCache.java
+ cache.managers.LfuCache
+cache/managers/LruCache.java
+ cache.managers.LruCache
+main/CacheManagersFactory.java
+ main.CacheManagersFactory
+ main.CacheManagersFactory$CacheType
+tuners/F02SizeTuner.java
+ tuners.F02SizeTuner
+reports/distributions/DistributionLogger.java
+ reports.distributions.DistributionLogger
+main/Executer.java
+ main.Executer
